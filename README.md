@@ -1,6 +1,7 @@
 # Solution
-Not being content with leaving well enough alone I created two files:
+Not being content with retrieving the information as requested, I created some validation and failsafes throughout the function:
 
-[tropo.py](../master/tropo.py) shows a clean and quick solution for organizing the data as requested.  
-
-[tropo_validata.py](../master/tropo_validata.py) has an extra validation feature which checks if the numbers detected by the regex are within the valid range of an accurate IP address.  **This file also includes notes explaining my thought process and functionality**
+[tropo_validata.py](../master/tropo_ip.py) has several extra validation features:
+1.  Checks for proper server address
+2.  Validations IP Addresses
+3.  Checks for populated list
