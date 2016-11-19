@@ -1,5 +1,5 @@
 # Solution
-Not being content with retrieving the information as requested, I created some validation and failsafes throughout the function:
+Not being content simply retrieving the information as requested, I created some validation and failsafes throughout the function:
 
 [tropo_ip.py](../master/tropo_ip.py) has several extra validation features:
 
