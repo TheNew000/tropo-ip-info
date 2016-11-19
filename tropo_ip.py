@@ -14,7 +14,7 @@ def tropo_ip_extraction(name, server):
     # Here I split the information wherever there is a new line allowing me to access '_netblocks.tropo.com\ttext = "159.122.242.16/28"' as a single item in a list
     data_list = process.communicate()[0].split('\n')
 
-    # Validation checks if the pattern discovered by the re.findall() function is a valid IP Address and not just a random coincidence.  We check that we have 5 groups of numbers as well as whether those numbers are within a valid range for an accurate IP Address.  It returns a boolean used in the if statement on line 33
+    # Validation checks if the pattern discovered by the re.findall() function is a valid IP Address and not just a random coincidence.  We check that we have 5 groups of numbers as well as whether those numbers are within a valid range for an accurate IP Address.  It returns a boolean used in the if statement on line 34
     def validate_ip(num):
         test = re.findall("\d{1,3}", str(num))
         if len(test) != 5:
